@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  
+  .gambar {
+    border-radius: 50%; /* Mengatur border-radius menjadi 50% untuk membuat lingkaran */
+    width: 250px;
+    height: 250px;
+  }
+  
+  .gambar img{
+    border-radius: 100%;
+  }
