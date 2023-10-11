@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>toast</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Inline Toast</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button id="open-toast" expand="block">Coba Pencet bang</ion-button>
+    <p id="message">tempe atau tahu?</p>
+    <ion-toast class="toast" position="middle" trigger="open-toast" [buttons]="toastButton" message="heheheehehehe"></ion-toast>
+  </ion-content>

@@ -13,9 +13,9 @@
 
   <ion-content>
     <div class="container">
-      <strong>App Mobile</strong>
-      <p>Klik <a [routerLink]="['/home']">Masuk</a> Untuk Ke Home</p>
-      <p>Klik <a [routerLink]="['/profile']">Profile</a> Untuk Ke Profile</p>
+     <h1><strong>Login</strong><br></h1>
+      Username : <input type="text" [(ngModel)]="username"><br>
+      Password : <input type="password" [(ngModel)]="password"><br>
+      <ion-button (click)="checkLoginAuth()">Login</ion-button>     
     </div>
   </ion-content>
-</ion-content>
